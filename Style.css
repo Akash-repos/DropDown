@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.a{
+    display: flex;
+    flex-flow: row wrap;
+    width: 20%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.b{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.b h2{
+    font-size: 25px;
+    padding: 10px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rotate{
+    transform: rotate(90deg);
+    transition: all .5s ease;
+}
+
+.rotate-down{
+    transform: rotate(0deg);
+}
+
+
+.c{
+    display: flex;
+    flex-flow: column wrap;
+    width: 90%;
+    margin: 20px auto;
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c li{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.c li img{
+    margin-right: 10px;
+}
+
+p{
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50px;
+}
+
+.d{
+    display: block;
+}
